@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .title-color{
     color: orange;
 }
-section{
+.flex-section{
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,4 +39,27 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.ex-item{
+    width: 40%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 50px grey;
+    border-radius: 5px;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 7px solid tomato;
+}
+#baby{
+    border-left: 7px solid blue;
+}
+footer{
+    text-align: center;
 }
